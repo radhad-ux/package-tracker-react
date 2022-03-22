@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function PackageDetails() {
-  return <div>PackageDetails</div>;
+export default function PackageDetails({ data }) {
+  return <div></div>;
 }
