@@ -1,3 +1,7 @@
 @import "./base/layout.css";
 @import "./base/swatches.css";
 @import "./base/variables.css";
+
+/* Components */
+@import "./components/header.css";
+@import "./components/title.css";
