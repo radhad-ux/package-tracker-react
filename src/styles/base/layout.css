@@ -29,3 +29,19 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  margin: var(--space-medium);
+  margin-bottom: var(--space-big);
+  padding: var(--space-medium);
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  .container {
+    max-width: 1200px; /* to avoid the container going to the borders of the screen on big monitors */
+    margin: 0 auto; /* to center the container on big monitors */
+    margin-bottom: var(--space-ultra);
+    border: 2px solid red;
+  }
+}

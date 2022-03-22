@@ -1,0 +1,48 @@
+.package_item {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  width: 250px;
+  background-color: #efa76b;
+  align-items: center;
+  margin: 40px;
+  margin-left: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.package_item .parcel_id {
+  color: var(--color-primary);
+}
+.package_item small {
+  color: rgb(1, 1, 15);
+}
+.package_item .sender {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.status_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status_icon img {
+  padding: 0px 8px;
+}
+.status_icon p {
+  font-size: 14px;
+  color: rgb(1, 1, 15);
+}
+.btn_primary {
+  display: block;
+  margin: 10px auto;
+  background-color: #777;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  color: aliceblue;
+}

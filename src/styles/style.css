@@ -5,3 +5,7 @@
 /* Components */
 @import "./components/header.css";
 @import "./components/title.css";
+@import "./components/packageitem.css";
+
+/* Pages */
+@import "./pages/package.css";
