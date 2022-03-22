@@ -1,5 +1,7 @@
-import React from "react";
-
 export default function Title() {
-  return <div>Title</div>;
+  return (
+    <div className="title_bar">
+      <h2>EVERYTHING TO EVERYWHERE</h2>
+    </div>
+  );
 }
