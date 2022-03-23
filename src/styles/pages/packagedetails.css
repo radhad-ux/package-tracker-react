@@ -1,0 +1,35 @@
+.package_details {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+#package_details {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  margin-top: 80px;
+  color: var(--color-primary);
+  /* background-color: rgb(236, 236, 214); */
+  background-color: rgb(243, 226, 128);
+}
+.package_details .package_card {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.back_arrow {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+.back_arrow .arrow {
+  padding-right: 5px;
+}

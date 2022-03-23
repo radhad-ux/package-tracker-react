@@ -6,6 +6,9 @@
 @import "./components/header.css";
 @import "./components/title.css";
 @import "./components/packageitem.css";
+@import "./components/map.css";
+@import "./components/packagedetailitem.css";
 
 /* Pages */
 @import "./pages/package.css";
+@import "./pages/packagedetails.css";

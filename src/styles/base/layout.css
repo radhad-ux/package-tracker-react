@@ -42,6 +42,5 @@ img {
     max-width: 1200px; /* to avoid the container going to the borders of the screen on big monitors */
     margin: 0 auto; /* to center the container on big monitors */
     margin-bottom: var(--space-ultra);
-    border: 2px solid red;
   }
 }
