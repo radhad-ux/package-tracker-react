@@ -8,6 +8,7 @@ import Title from "./components/Title";
 import ErrorPage from "./pages/ErrorPage";
 import LoadedPage from "./pages/LoadedPage";
 import LoadingPage from "./pages/LoadingPage";
+import Footer from "./components/Footer";
 import "./styles/style.css";
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
         {status === 0 && <LoadingPage />}
         {status === 1 && <ErrorPage />}
         {status === 2 && <LoadedPage data={data} />}
+        <Footer />
       </BrowserRouter>
     </div>
   );
