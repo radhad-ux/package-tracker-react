@@ -10,7 +10,7 @@ export default function PackageItem({ item }) {
       <div className="package_item">
         <p className="parcel_id">#{parcel_id}</p>
         <small>Arrival Date: {date}</small>
-        <p className="sender">{sender}</p>
+        {/* <p className="sender">{sender}</p> */}
         <div className="status">
           <StatusIcon status={status} />
         </div>

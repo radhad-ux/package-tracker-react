@@ -11,7 +11,7 @@ export default function StatusIcon({ status }) {
       {status === "on-the-way" && <img src={onthewayIcon} alt="moving truck" />}
       {status === "delivered" && <img src={deliveryIcon} alt="checkbox" />}
       {status === "order-info-received" && <img src={noteIcon} alt="invoice" />}
-      <p>{status}</p>
+      <p>{status.toUpperCase()}</p>
     </div>
   );
 }

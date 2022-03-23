@@ -3,7 +3,8 @@
   flex-direction: column;
   min-height: 200px;
   width: 250px;
-  background-color: #efa76b;
+  /* background-color: #efa76b; */
+  background-color: rgb(243, 226, 128);
   align-items: center;
   margin: 40px;
   margin-left: 0px;
@@ -26,7 +27,7 @@
 
 .status_icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
 }
 
@@ -35,7 +36,8 @@
 }
 .status_icon p {
   font-size: 14px;
-  color: rgb(1, 1, 15);
+  color: var(--color-primary);
+  font-weight: 700;
 }
 .btn_primary {
   display: block;
