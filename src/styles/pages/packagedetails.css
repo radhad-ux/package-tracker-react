@@ -2,7 +2,8 @@
   display: flex;
   margin: 0 auto;
   width: 100%;
-  height: auto;
+  min-height: 80vh;
+  border: 2px solid blue;
 }
 #package_details {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);

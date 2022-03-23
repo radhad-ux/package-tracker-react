@@ -8,6 +8,7 @@
 @import "./components/packageitem.css";
 @import "./components/map.css";
 @import "./components/packagedetailitem.css";
+@import "./components/footer.css";
 
 /* Pages */
 @import "./pages/package.css";
