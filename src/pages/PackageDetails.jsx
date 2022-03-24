@@ -8,19 +8,19 @@ export default function PackageDetails({ data }) {
   const packageDetails = data.find((item) => item.id === Number(id));
 
   return (
-    <div className="package_details">
-      <div className="container" id="package_details">
-        <h2>Your Package Details</h2>
+    <div className="package_detailpage">
+      <div className="container">
         <div className="package_card">
           <PackageDetailItem packageDetails={packageDetails} />
           <div className="map-container">
             <Map packageDetails={packageDetails} />
           </div>
+
+          <Link to="/" className="back_arrow">
+            <img src={Leftarrow} className="arrow" alt="left arrow" />
+            Go Back
+          </Link>
         </div>
-        <Link to="/" className="back_arrow">
-          <img src={Leftarrow} className="arrow" alt="left arrow" />
-          Go Back
-        </Link>
       </div>
     </div>
   );

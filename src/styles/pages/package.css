@@ -1,22 +1,42 @@
 .package_page {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: 100%;
   min-height: 80vh;
+  border: 2px solid green;
 }
 .package_page .heading {
   font-size: 24px;
   color: #777;
   text-align: left;
+  padding-left: 20px;
 }
 
 .package_page .heading_info {
   font-size: 18px;
   color: #777;
+  padding-left: 20px;
 }
 .package_page .package_list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  border: 2px solid cyan;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .package_page {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .package_page .package_list {
+    justify-content: center;
+  }
 }

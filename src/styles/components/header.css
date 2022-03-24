@@ -47,3 +47,25 @@
   font-size: 14px;
   color: var(--color-primary);
 }
+
+@media screen and (max-width: 550px) {
+  .page_header .header_main {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .van_img {
+    width: 80px;
+    height: 40px;
+  }
+  .page_header .header_main h2 {
+    font-size: 14px;
+  }
+  .page_header .header_main span {
+    font-size: 14px;
+  }
+
+  .page_header .header_sub {
+    display: none;
+  }
+}

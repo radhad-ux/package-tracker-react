@@ -10,6 +10,7 @@ export default function PackageDetailItem({ packageDetails }) {
   } = packageDetails;
   return (
     <div className="package_detailitem">
+      <h2>Your Package Details</h2>
       <p>Location: {location_name}</p>
       <p>Location_ID: {location_id}</p>
       <p className="sender">Sender: {sender}</p>

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SocialIcon({ icon, link }) {
   return (
     <div>

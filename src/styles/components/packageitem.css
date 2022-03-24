@@ -6,8 +6,7 @@
   /* background-color: #efa76b; */
   background-color: rgb(243, 226, 128);
   align-items: center;
-  margin: 40px;
-  margin-left: 0px;
+  margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
   border-radius: 5px;
@@ -47,4 +46,23 @@
   border-radius: 20px;
   border: none;
   color: aliceblue;
+}
+
+@media screen and (max-width: 950px) {
+  .package_item {
+    margin: 10px;
+    width: 200px;
+  }
+}
+/* @media screen and (max-width: 750px) {
+  .package_item {
+    margin: 20px;
+    width: 250px;
+  } */
+
+@media screen and (max-width: 500px) {
+  .package_item {
+    width: 250px;
+    justify-content: center;
+  }
 }

@@ -15,7 +15,7 @@ export default function Footer() {
         <SocialIcon icon={twitterURL} href="https://www.twitter.com/" />
       </div>
       <div className="copy_right">
-        <p> © 2022 @ Radha Doreswamy</p>
+        <p> © 2022 @ TRACKPACKAGE.IO</p>
       </div>
     </div>
   );

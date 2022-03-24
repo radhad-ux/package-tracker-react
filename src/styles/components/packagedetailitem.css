@@ -1,5 +1,6 @@
 .package_detailitem {
   display: flex;
+  margin: 20px;
   flex-direction: column;
   font-size: 18px;
 }
@@ -17,4 +18,10 @@
   padding: 5px;
   color: var(--color-background);
   letter-spacing: 0.6px;
+}
+
+@media screen and (max-width: 650px) {
+  .package_detailitem {
+    margin: 0;
+  }
 }
