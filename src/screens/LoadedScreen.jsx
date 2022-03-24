@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
 import Package from "../pages/Package";
-import PackageDetails from "./PackageDetails";
+import PackageDetails from "../pages/PackageDetails";
 
-export default function LoadedPage({ data }) {
+export default function LoadedScreen({ data }) {
   return (
     <Routes>
       <Route path="/" element={<Package data={data} />} />

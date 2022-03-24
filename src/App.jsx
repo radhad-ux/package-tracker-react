@@ -3,12 +3,12 @@ import { BrowserRouter } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 // Project files
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Title from "./components/Title";
-import ErrorPage from "./pages/ErrorPage";
-import LoadedPage from "./pages/LoadedPage";
-import LoadingPage from "./pages/LoadingPage";
-import Footer from "./components/Footer";
+import ErrorScreen from "./screens/ErrorScreen";
+import LoadedScreen from "./screens/LoadedScreen";
+import LoadingScreen from "./screens/LoadingScreen";
 import "./styles/style.css";
 
 export default function App() {
@@ -34,9 +34,9 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Title />
-        {status === 0 && <LoadingPage />}
-        {status === 1 && <ErrorPage />}
-        {status === 2 && <LoadedPage data={data} />}
+        {status === 0 && <LoadingScreen />}
+        {status === 1 && <ErrorScreen />}
+        {status === 2 && <LoadedScreen data={data} />}
         <Footer />
       </BrowserRouter>
     </div>

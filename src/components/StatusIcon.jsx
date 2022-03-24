@@ -1,4 +1,3 @@
-import React from "react";
 import packIcon from "../assets/parcel.png";
 import onthewayIcon from "../assets/truck.png";
 import deliveryIcon from "../assets/deliveryone.png";

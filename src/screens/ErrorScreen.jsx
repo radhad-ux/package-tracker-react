@@ -1,4 +1,4 @@
-export default function ErrorPage() {
+export default function ErrorScreen() {
   return (
     <div id="error_page">
       <h1>Welcome to our app</h1>

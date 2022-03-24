@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function LoadingPage() {
+export default function LoadingScreen() {
   return (
     <div id="loading_page">
       <h1>Prepare for an amazing experience</h1>

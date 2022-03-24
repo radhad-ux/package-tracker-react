@@ -16,7 +16,7 @@
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
-  border: 2px solid red;
+  background-color: rgb(236, 236, 212);
 }
 
 .back_arrow {
@@ -30,7 +30,4 @@
 
 .back_arrow .arrow {
   padding-right: 5px;
-}
-
-@media screen {
 }

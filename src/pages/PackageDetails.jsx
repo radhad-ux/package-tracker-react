@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import PackageDetailItem from "../components/PackageDetailItem";
 import Map from "../components/Map";
-import Leftarrow from "../assets/left.png";
+import LeftarrowIcon from "../assets/left.png";
 
 export default function PackageDetails({ data }) {
   const { id } = useParams();
@@ -17,7 +17,7 @@ export default function PackageDetails({ data }) {
           </div>
 
           <Link to="/" className="back_arrow">
-            <img src={Leftarrow} className="arrow" alt="left arrow" />
+            <img src={LeftarrowIcon} className="arrow" alt="left arrow" />
             Go Back
           </Link>
         </div>

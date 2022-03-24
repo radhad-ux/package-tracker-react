@@ -8,6 +8,7 @@ export default function PackageDetailItem({ packageDetails }) {
     notes,
     verification_required,
   } = packageDetails;
+
   return (
     <div className="package_detailitem">
       <h2>Your Package Details</h2>
