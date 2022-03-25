@@ -8,7 +8,7 @@ export default function Package({ data }) {
   return (
     <div className="package_page">
       <div className="container">
-        <h2 className="heading">Hello! Carl Johan De Geer</h2>App.jsx
+        <h2 className="heading">Hello! Carl Johan De Geer</h2>
         <p className="heading_info">Here are your packages</p>
         <section className="package_list">{Packages}</section>
       </div>

@@ -1,7 +1,7 @@
-import packIcon from "../assets/parcel.png";
-import onthewayIcon from "../assets/truck.png";
-import deliveryIcon from "../assets/deliveryone.png";
-import noteIcon from "../assets/invoiceone.png";
+import deliveryIcon from "../assets/images/statusIcons/delivery.png";
+import noteIcon from "../assets/images/statusIcons/invoice.png";
+import packIcon from "../assets/images/statusIcons/parcel.png";
+import onthewayIcon from "../assets/images/statusIcons/truck.png";
 
 export default function StatusIcon({ status }) {
   return (

@@ -17,7 +17,7 @@ export default function App() {
   const [status, setStatus] = useState(0);
   const endpoint = "https://my.api.mockaroo.com/insta-orders.json?key=e49e6840";
 
-  //Method
+  //Methods
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(endpoint);

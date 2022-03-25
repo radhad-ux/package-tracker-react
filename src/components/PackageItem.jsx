@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+
 import StatusIcon from "./StatusIcon";
 
 export default function PackageItem({ item }) {
-  const { id, parcel_id, sender, status, eta } = item;
+  const { id, parcel_id, status, eta } = item;
   const [date] = eta.split("T");
 
   return (

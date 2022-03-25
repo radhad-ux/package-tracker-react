@@ -1,5 +1,6 @@
 import StatusIcon from "./StatusIcon";
-export default function PackageDetailItem({ packageDetails }) {
+
+export default function PackageDetailsItem({ packageDetails }) {
   const {
     status,
     sender,
@@ -21,7 +22,7 @@ export default function PackageDetailItem({ packageDetails }) {
       </div>
       <p>Verification needed: {verification_required ? "Yes" : "No"}</p>
       <p className="notes">
-        Notes: {notes === null ? "No notes provided" : `${notes}`}{" "}
+        Notes: {notes === null ? "No notes provided" : `${notes}`}
       </p>
     </div>
   );
