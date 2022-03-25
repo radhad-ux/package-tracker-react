@@ -4,7 +4,6 @@
   margin: 0 auto;
   width: 100%;
   min-height: 80vh;
-  border: 2px solid green;
 }
 .package_page .heading {
   font-size: 24px;
@@ -23,7 +22,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  border: 2px solid cyan;
   justify-content: flex-start;
   align-items: center;
 }

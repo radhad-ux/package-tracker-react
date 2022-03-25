@@ -3,8 +3,7 @@
   flex-direction: column;
   min-height: 200px;
   width: 250px;
-  /* background-color: #efa76b; */
-  background-color: #f3e280;
+  background-color: var(--color-secondary);
   align-items: center;
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -50,11 +49,6 @@
     width: 200px;
   }
 }
-/* @media screen and (max-width: 750px) {
-  .package_item {
-    margin: 20px;
-    width: 250px;
-  } */
 
 @media screen and (max-width: 500px) {
   .package_item {

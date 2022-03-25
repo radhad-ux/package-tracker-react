@@ -3,7 +3,6 @@
   flex-direction: column;
   margin: 0 auto;
   width: 100%;
-  border: 2px solid green;
 }
 
 .package_card {
@@ -30,4 +29,10 @@
 
 .back_arrow .arrow {
   padding-right: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .package_card {
+    margin: 10px;
+  }
 }
