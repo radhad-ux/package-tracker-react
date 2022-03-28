@@ -29,6 +29,7 @@ export default function App() {
     setStatus(1);
   }, []);
 
+  // Good
   return (
     <div className="App">
       <BrowserRouter>

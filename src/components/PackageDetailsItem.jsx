@@ -1,5 +1,7 @@
 import StatusIcon from "./StatusIcon";
 
+// Naming -1
+// The name is too long, you can think of something shorter like DetailIten
 export default function PackageDetailsItem({ packageDetails }) {
   const {
     status,

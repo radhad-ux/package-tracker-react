@@ -1,3 +1,4 @@
+// this could use a fontawesome animation
 export default function LoadingScreen() {
   return (
     <div id="loading_page">

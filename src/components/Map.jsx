@@ -1,5 +1,6 @@
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 
+// good
 export default function Map({ packageDetails }) {
   const {
     location_coordinate_latitude: latitude,

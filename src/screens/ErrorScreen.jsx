@@ -1,3 +1,4 @@
+// Note how you call this ErrorScreen but just "error" on the component tree
 export default function ErrorScreen() {
   return (
     <div id="error_page">

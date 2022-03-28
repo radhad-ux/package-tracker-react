@@ -4,6 +4,7 @@ import LeftarrowIcon from "../assets/leftarrow.png";
 import Map from "../components/Map";
 import PackageDetailsItem from "../components/PackageDetailsItem";
 
+// good
 export default function PackageDetails({ data }) {
   const { id } = useParams();
   const packageDetails = data.find((item) => item.id === Number(id));

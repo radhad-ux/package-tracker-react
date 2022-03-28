@@ -1,6 +1,7 @@
 import Logo from "../assets/shipping.png";
 import PhoneIcon from "../assets/phone.png";
 
+// good
 export default function Header() {
   return (
     <header className="page_header">
